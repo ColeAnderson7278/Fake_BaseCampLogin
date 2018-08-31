@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1523731967407-ffc703fed1d1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9cd8c33b333157f167e5ddea02af9c20&auto=format&fit=crop&w=800&q=60");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.icon {
+    border-radius: 50%;
+}
+
+.header {
+    height: 75px;
+    text-align: center;
+    margin: 2.5% 0%;
+    font-size: 650%;
+    font-family: "Alex Brush";
+    color: rgb(25, 104, 25, 0.7);
+}
+
+.login-form-container {
+    margin: 5% 20%;
+    padding: 5% 5% 5% 5%;
+    background-color: rgba(235, 234, 250, 0.4);
+    border-radius: 25px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    color: rgb(17, 68, 17);
+    background-color: rgba(255, 255, 255, 0.007);
+    border-color: rgba(255, 255, 255, 0.39);
+}
